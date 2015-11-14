@@ -3,7 +3,17 @@
 import skilstak.colors as c
 
 """The Wonderful Hello World Program"""
+
+    
+def print_plain():
+    print(c.rc() + "Hello" + who + "!")
+
+def print_forever():
+    while True:
+        print(c.rc() + "Hello " + who + "!")
+
 if __name__ == "__main__":
-while True:
-print( c.rc() +"Hello World")
+    who = ("You")
+
+    print_forever()
 
