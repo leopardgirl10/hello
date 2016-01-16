@@ -28,6 +28,18 @@ var printYellow = function () {
   console.log(c.y + "Hello World" + c.x);
 }
 
+var printGreen = function () {
+  console.log(c.g + "Hello World" + c.x);
+}
+
+var printBlue = function () {
+  console.log(c.b + "Hello World" + c.x);
+}
+
+var printPurple = function () {
+  console.log(c.v + "Hello World" + c.x);
+}
+
 var printMulti = function () {
   console.log(c.multi("Hello Potato") );
 }
@@ -43,9 +55,12 @@ var printRainbow = function () {
 //printPlain();
 //printRandom();
 printPink();
-printRed();
+//printRed();
 printOrange();
-printYellow();
+//printYellow();
+//printGreen();
+printBlue();
+//printPurple();
 //printMulti();
 //printCrazy();
 //printRainbow();
