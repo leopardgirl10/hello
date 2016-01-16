@@ -35,5 +35,18 @@ if __name__ == "__main__":
 
         elif option == "-y":
             h.print_yellow(message)
+
+        elif option == "-g":
+            h.print_green(message)
+
+        elif option == "-c":
+            h.print_cyan(message)
+
+        elif option == "-b":
+            h.print_blue(message)
+
+        elif option == "-v":
+            h.print_violet(message)
+
     except KeyboardInterrupt:
         exit()

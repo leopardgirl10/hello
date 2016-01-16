@@ -15,6 +15,18 @@ def print_orange(hello):
 def print_yellow(hello):
     print(c.y + hello)
 
+def print_green(hello):
+    print(c.g + hello)
+    
+def print_cyan(hello):
+    print(c.c + hello)
+
+def print_blue(hello):
+    print(c.b + hello)
+
+def print_violet(hello):
+    print(c.v + hello)
+
 def print_plain(hello):
     print("hello")
 

@@ -2,4 +2,45 @@
 
 'use strict'
 
-console.log("Hello World");
+var c = require('skilstak-colors');
+
+function printPlain() {
+  console.log("Hello World");
+}
+
+var printRandom = function () { 
+  console.log(c.rc() + "Hello World" + c.x);
+}
+
+var printPink = function () {
+  console.log(c.m + "Hello World" + c.x);
+}
+
+var printRed = function () {
+  console.log(c.r + "Hello World" + c.x);
+}
+
+var printOrange = function () {
+  console.log(c.o + "Hello World" + c.x);
+}
+
+var printMulti = function () {
+  console.log(c.multi("Hello Potato") );
+}
+
+var printCrazy = function () {
+  while (true){
+  console.log(c.multi("Hello Kawaii-Potato!"))}
+}
+
+var printRainbow = function () {
+  console.log(c.m + "H" +  c.r + "I" + c.x);
+}
+//printPlain();
+//printRandom();
+printPink();
+printRed();
+printOrange();
+//printMulti();
+//printCrazy();
+//printRainbow();
