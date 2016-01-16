@@ -24,6 +24,10 @@ var printOrange = function () {
   console.log(c.o + "Hello World" + c.x);
 }
 
+var printYellow = function () {
+  console.log(c.y + "Hello World" + c.x);
+}
+
 var printMulti = function () {
   console.log(c.multi("Hello Potato") );
 }
@@ -41,6 +45,7 @@ var printRainbow = function () {
 printPink();
 printRed();
 printOrange();
+printYellow();
 //printMulti();
 //printCrazy();
 //printRainbow();
