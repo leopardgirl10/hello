@@ -54,12 +54,12 @@ var printRainbow = function () {
 }
 //printPlain();
 //printRandom();
-printPink();
+//printPink();
 //printRed();
-printOrange();
+//printOrange();
 //printYellow();
 //printGreen();
-printBlue();
+//printBlue();
 //printPurple();
 //printMulti();
 //printCrazy();

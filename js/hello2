@@ -1,0 +1,50 @@
+#!/usr/bin/env node
+
+'use strict'
+
+var c = require ('skilstak-colors');
+
+var hello = "Hello!";
+var minecraft = "Minecraft!";
+
+function printWhite(message) {
+  console.log(c.b3 + message  + c.x);
+}
+
+var printPink = function (message) {
+  console.log(c.m + message + c.x);
+}
+
+var printRed = function (message) {
+  console.log(c.r + message + c.x);
+}
+
+var printOrange = function (message) {
+  console.log(c.o + message + c.x);
+}
+
+var printYellow = function (message) {
+  console.log(c.y + message + c.x);
+}
+
+var printGreen = function (message)  {
+  console.log(c.g + message + c.x);
+}
+
+var printBlue = function (message) {
+  console.log(c.c + message + c.x);
+}
+
+var firstValue = process.argv[2];
+var secondValue = process.argv[3];
+var thirdValue = process.argv[4];
+var fourthValue = process.argv[5];
+var fifthValue = process.argv[6];
+
+printWhite(firstValue);
+printPink(secondValue);
+printRed(firstValue);
+printOrange(secondValue);
+printYellow(firstValue);
+printGreen(secondValue);
+printBlue(firstValue);
